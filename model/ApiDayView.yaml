@@ -43,6 +43,7 @@ cube:
     api:
       sql: method || ' ' || if(channel='default' or channel='', host, channel) || url
       type: string
+      primary_key: true
       title: API
 
     risk:

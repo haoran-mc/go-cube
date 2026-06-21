@@ -17,6 +17,7 @@ cube:
     uid:
       sql: uid
       type: string
+      primary_key: true
       title: 用户ID
 
     userName:

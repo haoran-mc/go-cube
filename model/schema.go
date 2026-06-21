@@ -12,10 +12,11 @@ type Cube struct {
 }
 
 type Dimension struct {
-	SQL     string `yaml:"sql"`
-	SQLMask string `yaml:"sql_mask,omitempty"`
-	Type    string `yaml:"type"`
-	Title   string `yaml:"title,omitempty"`
+	SQL        string `yaml:"sql"`
+	SQLMask    string `yaml:"sql_mask,omitempty"`
+	Type       string `yaml:"type"`
+	Title      string `yaml:"title,omitempty"`
+	PrimaryKey bool   `yaml:"primary_key,omitempty"`
 }
 
 type Measure struct {

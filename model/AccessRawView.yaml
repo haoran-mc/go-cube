@@ -13,6 +13,7 @@ cube:
     id:
       sql: id
       type: string
+      primary_key: true
       title: ID
 
     ts:

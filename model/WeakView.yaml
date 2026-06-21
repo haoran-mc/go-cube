@@ -53,6 +53,7 @@ cube:
 
     defectId:
       sql: weak_name
+      primary_key: true
       type: string
       title: 弱点名称
 
